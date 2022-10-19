@@ -155,6 +155,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.yasirkula.simplefilebrowser": {
+      "version": "https://github.com/yasirkula/UnitySimpleFileBrowser.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e24a26238a04aa249257b14882a56d5304ea9d45"
+    },
     "jp.keijiro.klak.syphon": {
       "version": "0.0.4",
       "depth": 0,
