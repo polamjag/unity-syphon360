@@ -9,7 +9,7 @@ public class MoviePlayerController : MonoBehaviour
     void Start()
     {
         var player = GameObject.Find("Movie360");
-        player.GetComponent<UnityEngine.Video.VideoPlayer>().url = "/Users/satoru/Desktop/ayutthaya_-_easy_tripod_paint___360_vr_master_series___free_download (1080p).mp4";
+        player.GetComponent<UnityEngine.Video.VideoPlayer>().url = "";
         FileBrowser.SetFilters(true, new FileBrowser.Filter("Movies", ".mov", ".mp4"));
     }
 
