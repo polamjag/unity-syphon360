@@ -16,7 +16,7 @@ public class MoviePlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("p"))
+        if (Input.GetKey("o"))
         {
 			FileBrowser.ShowLoadDialog((paths) => {
 				if (paths[0] != null)
