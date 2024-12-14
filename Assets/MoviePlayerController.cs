@@ -8,8 +8,9 @@ public class MoviePlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var player = GameObject.Find("Movie360");
+        var player = GameObject.FindObjectOfType<UnityEngine.Video.VideoPlayer>();
         player.GetComponent<UnityEngine.Video.VideoPlayer>().url = "";
+        player.isLooping = true;
         FileBrowser.SetFilters(true, new FileBrowser.Filter("Movies", ".mov", ".mp4"));
     }
 
